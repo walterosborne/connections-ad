@@ -3,17 +3,13 @@ import './Home.css'
 import arrow from './arrow.gif'
 import Tutor from './repl.png'
 import Kids from './kids.jpg'
-import Lads from './lads.jpg'
-
 import Navbar from './Navbar.jsx'
-
 import { Link } from 'react-router-dom'
-import { useRef } from 'react'
 
 
 function Home() {
 
-  const style = { display: 'flex', border: '2px solid black', borderRadius: '5%', marginTop: '2px', borderRadius: '10%', backgroundColor: 'rgb(240, 234, 214)', width: '45vw', height: '5vh' }
+  const style = { display: 'flex', border: '2px solid black', borderRadius: '5%', marginTop: '2px', backgroundColor: 'rgb(240, 234, 214)', width: '45vw', height: '5vh' }
 
   return (
     <div id='all'>
@@ -35,7 +31,7 @@ function Home() {
             <Link to='/staff'><h3>Our Product.</h3></Link>
             <p>New Connections is based on last semester's CMSC435 student project, where the tool focuses on graphing relationships and visualizing connections. The main purpose of this tool is to allow propagation of science and connections to be visualized and expanded based on different relationships researchers or scholars may have.
             </p>
-            <a href='http://vegetable.cs.umd.edu:3000/' target='_blank'><button>Launch App</button></a>
+            <a href='http://vegetable.cs.umd.edu:3000/' target='_blank' rel="noreferrer"><button>Launch App</button></a>
           </div>
         </div>
         <div id='sideways' className='row'>
@@ -71,7 +67,7 @@ function Home() {
             <Link to='/contact'><h3>Pure Functionality.</h3></Link>
             <p style={{ fontSize: '24px' }}>The New Connections is using a Python REPL, where the user will use our custom library functions while being able to write their own functions in Python. The functions that the user will be able to use are: graph(), subgraph(), vis(), save(), add(), filter(), shortestpath(), merge(). These custom functions will be based on a library that will be imported to the environment.
             </p>
-            <a href='https://para.cs.umd.edu/new_connections/new_connections' target='_blank'><button >Visit Gitlab</button></a>
+            <a href='https://para.cs.umd.edu/new_connections/new_connections' rel="noreferrer" target='_blank'><button >Visit Gitlab</button></a>
           </div>
         </div>
       </div>

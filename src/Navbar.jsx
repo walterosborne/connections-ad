@@ -7,7 +7,7 @@ function Navbar() {
     return (
         <>
             <div id='bar'>
-                <Link to='/' id='homelink'><div id='logoside'><img src={Mtn} /><h2 id='heading'>Connections</h2></div></Link>
+                <Link to='/' id='homelink'><div id='logoside'><img src={Mtn} alt='logo' /><h2 id='heading'>Connections</h2></div></Link>
 
             </div>
         </>
