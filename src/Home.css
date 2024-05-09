@@ -10,6 +10,11 @@
   perspective: 10px;
 }
 
+
+.names {
+  width: 15vw;
+}
+
 #pg1 {
   position: relative;
   display: flex;
@@ -140,6 +145,14 @@ p {
 @media (max-width:800px) {
   #all {
     height: 100vh;
+  }
+
+  .member {
+    width: 70vw;
+  }
+
+  .names {
+    width: 25vw;
   }
 
   #hometitles {

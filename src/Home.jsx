@@ -9,7 +9,7 @@ import { Link } from 'react-router-dom'
 
 function Home() {
 
-  const style = { display: 'flex', border: '2px solid black', borderRadius: '5%', marginTop: '2px', backgroundColor: 'rgb(240, 234, 214)', width: '45vw', height: '5vh' }
+  const style = { display: 'flex', border: '2px solid black', borderRadius: '5%', marginTop: '2px', backgroundColor: 'rgb(240, 234, 214)', height: '5vh' }
 
   return (
     <div id='all'>
@@ -37,26 +37,26 @@ function Home() {
         <div id='sideways' className='row'>
           <div className='text'>
             <Link to='/staff'><h3>The Team.</h3></Link>
-            <div style={style}>
-              <h6 style={{ fontSize: '28px', width: '15vw' }}>Ely Cohen</h6> <p style={{ fontSize: '20px', width: '30vw' }}> Computer Science (ecohen23@terpmail.umd.edu)</p>
+            <div className='member' style={style}>
+              <h6 className='names' style={{ fontSize: '20px' }}>Ely Cohen</h6> <p style={{ fontSize: '18px', width: '35vw' }}> Computer Science (ecohen23@terpmail.umd.edu)</p>
             </div>
-            <div style={style}>
-              <h6 style={{ fontSize: '28px', width: '15vw' }}>Paul Crumrine</h6> <p style={{ fontSize: '20px', width: '30vw' }}> Computer Science (prc@terpmail.umd.edu)</p>
+            <div className='member' style={style}>
+              <h6 className='names' style={{ fontSize: '20px' }}>Paul Crumrine</h6> <p style={{ fontSize: '18px', width: '35vw' }}> Computer Science (prc@terpmail.umd.edu)</p>
             </div>
-            <div style={style}>
-              <h6 style={{ fontSize: '28px', width: '15vw' }}>Stephanie Estrella</h6> <p style={{ fontSize: '20px', width: '30vw' }}> Computer Engineering (sestrell@terpmail.umd.edu)</p>
+            <div className='member' style={style}>
+              <h6 className='names' style={{ fontSize: '20px' }}>Stephanie Estrella</h6> <p style={{ fontSize: '18px', width: '35vw' }}> Computer Engineering (sestrell@terpmail.umd.edu)</p>
             </div>
-            <div style={style}>
-              <h6 style={{ fontSize: '28px', width: '15vw' }}>Joel Joseph</h6> <p style={{ fontSize: '20px', width: '30vw' }}>Computer Engineering (joseph16@terpmail.umd.edu)</p>
+            <div className='member' style={style}>
+              <h6 className='names' style={{ fontSize: '20px' }}>Joel Joseph</h6> <p style={{ fontSize: '18px', width: '35vw' }}>Computer Engineering (joseph16@terpmail.umd.edu)</p>
             </div>
-            <div style={style}>
-              <h6 style={{ fontSize: '28px', width: '15vw' }}>Walter Osborne</h6> <p style={{ fontSize: '20px', width: '30vw' }}> Computer Science (wosborne@terpmail.umd.edu)</p>
+            <div className='member' style={style}>
+              <h6 className='names' style={{ fontSize: '20px' }}>Walter Osborne</h6> <p style={{ fontSize: '18px', width: '35vw' }}> Computer Science (wosborne@terpmail.umd.edu)</p>
             </div>
-            <div style={style}>
-              <h6 style={{ fontSize: '28px', width: '15vw' }}>Revaant Tandon</h6> <p style={{ fontSize: '20px', width: '30vw' }}> Computer Engineering (rtandon@terpmail.umd.edu)</p>
+            <div className='member' style={style}>
+              <h6 className='names' style={{ fontSize: '20px' }}>Revaant Tandon</h6> <p style={{ fontSize: '18px', width: '35vw' }}> Computer Engineering (rtandon@terpmail.umd.edu)</p>
             </div>
-            <div style={style}>
-              <h6 style={{ fontSize: '28px', width: '15vw' }}>Andrew Timmer</h6> <p style={{ fontSize: '20px', width: '30vw' }}>  Computer Science (atimmer@terpmail.umd.edu)</p>
+            <div className='member' style={style}>
+              <h6 className='names' style={{ fontSize: '20px' }}>Andrew Timmer</h6> <p style={{ fontSize: '18px', width: '35vw' }}>  Computer Science (atimmer@terpmail.umd.edu)</p>
             </div>
           </div>
           <img style={{ border: '2px solid black' }} src={Kids} alt="tutor" />
@@ -65,7 +65,7 @@ function Home() {
           <img src={Kids} style={{ border: '2px solid black' }} alt="tutor" />
           <div className='text'>
             <Link to='/contact'><h3>Pure Functionality.</h3></Link>
-            <p style={{ fontSize: '24px' }}>The New Connections is using a Python REPL, where the user will use our custom library functions while being able to write their own functions in Python. The functions that the user will be able to use are: graph(), subgraph(), vis(), save(), add(), filter(), shortestpath(), merge(). These custom functions will be based on a library that will be imported to the environment.
+            <p style={{ fontSize: '20px' }}>The New Connections is using a Python REPL, where the user will use our custom library functions while being able to write their own functions in Python. The functions that the user will be able to use are: graph(), subgraph(), vis(), save(), add(), filter(), shortestpath(), merge(). These custom functions will be based on a library that will be imported to the environment.
             </p>
             <a href='https://para.cs.umd.edu/new_connections/new_connections' rel="noreferrer" target='_blank'><button >Visit Gitlab</button></a>
           </div>
