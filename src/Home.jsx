@@ -3,6 +3,7 @@ import './Home.css'
 import arrow from './arrow.gif'
 import Tutor from './repl.png'
 import Kids from './kids.jpg'
+import Group from './group.jpg'
 import Navbar from './Navbar.jsx'
 import { Link } from 'react-router-dom'
 
@@ -59,7 +60,7 @@ function Home() {
               <h6 className='names' style={{ fontSize: '20px' }}>Andrew Timmer</h6> <p style={{ fontSize: '18px', width: '35vw' }}>  Computer Science (atimmer@terpmail.umd.edu)</p>
             </div>
           </div>
-          <img style={{ border: '2px solid black' }} src={Kids} alt="tutor" />
+          <img style={{ border: '2px solid black', maxWidth: '35vw', marginRight: '5vw' }} src={Group} alt="tutor" />
         </div>
         <div className='row'>
           <img src={Kids} style={{ border: '2px solid black' }} alt="tutor" />

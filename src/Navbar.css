@@ -33,22 +33,6 @@
     margin-left: 1vw;
 }
 
-#links {
-    display: flex;
-    justify-content: space-evenly;
-    align-items: center;
-    width: 50vw;
-    align-items: center;
-    flex-wrap: wrap;
-
-}
-
-#links h3 {
-    text-decoration: underline;
-    text-shadow: none;
-    font-size: 4vh;
-    text-align: center;
-}
 
 @media (max-width:800px) {
     #logoside {
@@ -66,24 +50,5 @@
         text-align: center;
     }
 
-    #stafflink,
-    #contact {
-        color: darkgray;
-    }
 
-    #plans {
-        color: black;
-    }
-
-    #links h3 {
-        font-size: 2vh;
-        width: 40vw;
-    }
-
-}
-
-@media (min-width:800px) {
-    #links h3 {
-        color: black;
-    }
 }

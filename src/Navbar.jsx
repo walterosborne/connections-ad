@@ -15,11 +15,3 @@ function Navbar() {
 }
 
 export default Navbar
-
-/*
-                <div id='links'>
-                    <Link to='/staff'><h3 id='stafflink'>Staff</h3></Link>
-                    <Link to='/plans'><h3 id='plans'>What We Do</h3></Link>
-                    <Link to='/contact'><h3 id='contact'>Contact Us</h3></Link>
-                </div>
-                */
